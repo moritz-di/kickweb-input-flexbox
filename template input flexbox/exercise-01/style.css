@@ -1,0 +1,26 @@
+:root{
+  --container-color: #ddcdff2f;
+  --item-color: #DDCDFF;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container-color);
+  height: 100vh;
+  width: 100vw;
+}
+
+.item{
+  height: 20%;
+  width: 20%;
+  background-color: var(--item-color);
+  border-radius: 20px;
+}
+
